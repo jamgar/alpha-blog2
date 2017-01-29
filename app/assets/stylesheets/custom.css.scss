@@ -55,6 +55,15 @@ $navbar-default-bg: #005f6b;
   border-color: #008c9e;
 }
 
+.article-actions {
+  border-top: 1px solid #EAEAEA;
+  padding-top: 5px;
+}
+
+.description {
+  margin-top: 0;
+}
+
 footer {
   padding-top: 50px;
   color: #777;
@@ -73,6 +82,8 @@ footer ul {
   float: right;
   list-style: none;
 }
+
+
 
 
 

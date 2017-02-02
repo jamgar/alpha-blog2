@@ -75,6 +75,11 @@ $navbar-default-bg: #005f6b;
   font-size: 1.5em;
 }
 
+.small-text {
+  font-weight: normal;
+  font-size: .55em;
+}
+
 .article-body {
   border-top: 1px solid #EAEAEA;
   padding-top: 15px;
@@ -84,6 +89,17 @@ $navbar-default-bg: #005f6b;
 .listing {
   list-style: none;
   padding-left: 0;
+}
+
+.badge {
+  background-color: #CEF6F5;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.input_checkbox input {
+  width: auto !important;
 }
 
 footer {

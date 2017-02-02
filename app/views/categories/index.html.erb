@@ -7,6 +7,7 @@
         <ul class="list-group text-center">
           <li class="list-group-item article-title">
             <%= link_to "#{category.name}", category_path(category) %>
+            <p class="small-text"><%= pluralize(category.articles.count, "article") %></p>
           </li>
         </ul>
       </div>

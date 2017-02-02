@@ -1,12 +1,10 @@
-<div class="container">
-  <h1 class="text-center">Listing all articles</h1>
-  <div class="text-center">
-    <%= will_paginate %>
-  </div>
+<div class="container text-center">
+  <h1>Listing all articles</h1>
+
+  <%= will_paginate %>
 
   <%= render 'article', obj: @articles %>
   
-  <div class="text-center">
-    <%= will_paginate %>
-  </div>
+  <%= will_paginate %>
+
 </div>
